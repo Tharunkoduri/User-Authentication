@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Sign Up</h2>
+  <p id="msg" class="error"></p>
+  <label for="name">Full Name</label>
+  <input type="text" id="name" placeholder="Enter Full Name"><br><br>
+  <label for="email">Email Address</label>
+  <input type="email" id="email" placeholder="Enter Email Address"><br><br>
+  <label for="username">Username</label>
+  <input type="text" id="username" placeholder="Enter Username"><br><br>
+  <label for="password">Password</label>
+  <input type="password" id="password" placeholder="Enter Password"><br><br>
+  <label for="confirmPassword">Confirm Password</label>
+  <input type="password" id="confirmPassword" placeholder="Please Confirm Password"><br><br>
+  <label for="mobile">Mobile Number</label>
+  <input type="tel" id="mobile" placeholder="Enter Mobile Number"><br><br>
+  <label for="dob">Date of Birth</label>
+  <input type="date" id="dob"><br><br>
+  <label for="gender">Gender</label>
+  <select id="gender">
+    <option value="">Select Gender</option>
+    <option>Male</option>
+    <option>Female</option>
+    <option>Other</option>
+  </select><br><br>
+  <label for="address">Address(optional)</label>
+  <textarea id="address" placeholder="Enter Address"></textarea>
+<div class="checkbox-group">
+    <input type="checkbox" id="terms">
+    <label for="terms">Accept Terms & Conditions</label>
+    </div><br>
+  <button onclick="signup()">Sign Up</button><br><br>
+
+  <div class="link">
+    <a href="login.html">Already have an account? Login</a>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
